@@ -17,6 +17,5 @@ void biggest() {
     {
 	printf("Both are Equal\n");
     }
-    //return 0
    // return 0;  
 }
