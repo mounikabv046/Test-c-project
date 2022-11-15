@@ -1,0 +1,10 @@
+main(){
+fib();
+fact();
+big2();
+big3();
+pall();
+rev();
+sum();
+sort();
+}
