@@ -4,7 +4,7 @@ pipeline {
       stage ('install' )
       {
         steps {
-          sh ''' sudo apt-get install make gcc '''
+          sh ''' sudo apt-get install -y  make gcc '''
         }
       }
       stage ('build' ) {
