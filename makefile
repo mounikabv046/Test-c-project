@@ -14,3 +14,5 @@ fib.o:fib.c
 	gcc -c fib.c
 main.o:main.c
 	gcc -c main.c
+clean:
+	rm -rf *.o
