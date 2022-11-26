@@ -1,15 +1,9 @@
 pipeline {
   agent any 
-    stages {
-      stage ('install' )
-      {
-        steps {
-          sh ''' sudo apt-get install -y  make gcc '''
-        }
-      }
+  stages {
       stage ('build' ) {
         steps { 
-          sh ''' make '''
+          sh ''' make clean '''
         }
       }
     }
