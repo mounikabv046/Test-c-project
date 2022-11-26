@@ -6,7 +6,7 @@ pipeline {
           sh ''' make clean '''
         }
       }
-    stage ( 'archve' ) {
+    stage ( 'archive' ) {
       steps {
         archiveArtifacts artifacts: '*.exe', followSymlinks: false
       }
