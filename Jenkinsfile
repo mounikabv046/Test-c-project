@@ -8,7 +8,7 @@ pipeline {
       }
     stage ( 'archve' ) {
       steps {
-        archiveArtifacts artifacts: '/var/lib/jenkins/workspace/archive-testc-project/SANDEEP.exe', followSymlinks: false
+        archiveArtifacts artifacts: '/var/lib/jenkins/workspace/archive-testc-project/SANDEEP.exe', followSymlinks: true
       }
     }
     }
