@@ -9,5 +9,7 @@ pipeline {
     stage ( 'archve' ) {
       steps {
         archiveArtifacts artifacts: '/var/lib/jenkins/workspace/archive-testc-project/*.exe', followSymlinks: false
+      }
+    }
     }
 }
